@@ -1,0 +1,4 @@
+.skills { max-width: 900px; }
+.skills h2 { margin-top: 0; }
+.grid { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+.badge { background: var(--glass); padding: 0.45rem 0.75rem; border-radius: 999px; color: var(--text); font-weight: 600; font-size: 0.95rem; box-shadow: 0 6px 20px rgba(2,6,23,0.5); }

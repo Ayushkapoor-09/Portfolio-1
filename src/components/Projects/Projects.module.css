@@ -1,0 +1,16 @@
+.projects h2 { margin-top: 0; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
+.card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding: 1rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(2,6,23,0.6); transition: transform .25s ease, box-shadow .25s ease; }
+.card:hover { transform: translateY(-8px); box-shadow: 0 18px 50px rgba(2,6,23,0.7); }
+.desc { color: var(--muted); font-size: 0.95rem; }
+.tags { display: flex; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap; }
+.tags span { background: rgba(255,255,255,0.03); padding: 0.3rem 0.5rem; border-radius: 8px; font-size: 0.85rem; color: var(--muted); }
+.actions { margin-top: 0.75rem; }
+.link { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+@media (max-width: 920px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 620px) {
+  .grid { grid-template-columns: 1fr; }
+}
